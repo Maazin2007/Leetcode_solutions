@@ -9,6 +9,7 @@ class Solution {
             // if it is not contained we just add the current element and its index for later use
             map.put(nums[i], i);
         }
+        // need a trash return value since result is garuntteed for compilation error avoiding
         return new int[]{};
     }
 }
